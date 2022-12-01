@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "adventofcode.com 2022 edition",
   "author": "ike",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.10"
+  }
 }
