@@ -10,9 +10,7 @@ const invEachElf = rawInvEachElf.map((elfInv) =>
 );
 
 const sumOfCalsEachElf = invEachElf.map((elfInv) => {
-  let sum = 0;
-  elfInv.forEach((calories) => (sum += calories));
-  return sum;
+  return elfInv.reduce((prev, curr) => prev + curr);
 });
 
 const sortedSumsOfCals = sumOfCalsEachElf.sort((a, b) => a - b);
