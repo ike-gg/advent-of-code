@@ -5,6 +5,10 @@
   "author": "ike",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.191",
     "@types/node": "^18.11.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
